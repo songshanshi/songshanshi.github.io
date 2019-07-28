@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://songshanshi.github.io/tages/index.html</loc>
+    
+    <lastmod>2019-07-28T10:44:50.104Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://songshanshi.github.io/about/index.html</loc>
+    
+    <lastmod>2019-07-28T10:42:15.467Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://songshanshi.github.io/2019/07/28/hello-world/</loc>
+    
+    <lastmod>2019-07-28T10:40:49.137Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://songshanshi.github.io/2019/04/16/ddctf/</loc>
     
     <lastmod>2019-07-28T08:44:52.543Z</lastmod>
@@ -47,13 +68,6 @@
     <loc>https://songshanshi.github.io/2018/06/09/%E8%A7%A3%E5%86%B3%E5%8C%85%E6%8D%9F%E5%9D%8F%E9%94%99%E8%AF%AF/</loc>
     
     <lastmod>2018-06-09T11:33:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://songshanshi.github.io/2018/05/08/hello-world/</loc>
-    
-    <lastmod>2018-05-08T12:38:42.811Z</lastmod>
     
   </url>
   
