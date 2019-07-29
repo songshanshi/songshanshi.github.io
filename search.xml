@@ -12,9 +12,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[hexo博客迁移记录]]></title>
-    <url>%2F2019%2F07%2F28%2F%E5%AE%89%E8%A3%85hexo%2F</url>
-    <content type="text"><![CDATA[本文并不是从头开始搭建hexo博客的教程，而是因为最近个人重装了电脑系统，需求迁移原来搭建好的hexo博客，为了防止将来还需要迁移，特记录下操作流程，以便将来查看。 迁移博客的工作量要比从头开始搭建简单很多，很多插件的服务端配置都不需要重新设置，只需要在本地做相应的操作即可。 安装hexo第一步当然是安装相应的软件和配置好环境。需要安装的软件有Node.js和Git,去官网下载安装即可。 123git -vnode -vhexo -v 当Node.js和Git都安装好后就可以正式安装Hexo了，终端执行如下命令：1sudo npm install -g hexo git更换源12npm config set registry https://registry.npm.taobao.org npm info underscore (输出正常反馈信息则说明换源成功) hexo部署插件12345678本地测试的时候需要用hexo servernpm i hexo-server将文章部署到github上的模块npm install hexo-deployer-git --save安装RSS插件npm install hexo-generator-feed --save添加Sitemap,加速网页收录速度npm install hexo-generator-sitemap --save .deploy：执行hexo deploy命令部署到GitHub上的内容目录public：执行hexo generate命令，输出的静态网页内容目录scaffolds：layout模板文件目录，其中的md文件可以添加编辑scripts：扩展脚本目录，这里可以自定义一些javascript脚本source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。_drafts：草稿文章_posts：发布文章themes：主题文件目录_config.yml：全局配置文件，大多数的设置都在这里package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮 Hexo原理就是hexo在执行hexo generate时会在本地先把博客生成的一套静态站点放到public文件夹中，在执行hexo deploy时将其复制到.deploy文件夹中。Github的版本库通常建议同时附上README.md说明文件，但是hexo默认情况下会把所有md文件解析成html文件，所以即使在线生成了README .md，它也会在你下一次部署时被删去。怎么解决呢？在执行hexo deploy前把在本地写好的README.md文件复制到.deploy文件夹中，再去执行hexo deploy。 hexo博客更新博文123hexo g # 初始化文件hexo s # 本地部署hexo d # 发布到github 先记录到这，一会出现问题都会在这里更新。]]></content>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F07%2F28%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <categories>
         <category>Testing</category>
       </categories>
@@ -23,9 +23,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F07%2F28%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[hexo博客迁移记录]]></title>
+    <url>%2F2019%2F07%2F28%2F%E5%AE%89%E8%A3%85hexo%2F</url>
+    <content type="text"><![CDATA[本文并不是从头开始搭建hexo博客的教程，而是因为最近个人重装了电脑系统，需求迁移原来搭建好的hexo博客，为了防止将来还需要迁移，特记录下操作流程，以便将来查看。 迁移博客的工作量要比从头开始搭建简单很多，很多插件的服务端配置都不需要重新设置，只需要在本地做相应的操作即可。 安装hexo第一步当然是安装相应的软件和配置好环境。需要安装的软件有Node.js和Git,去官网下载安装即可。 123git -vnode -vhexo -v 当Node.js和Git都安装好后就可以正式安装Hexo了，终端执行如下命令：1sudo npm install -g hexo git更换源12npm config set registry https://registry.npm.taobao.org npm info underscore (输出正常反馈信息则说明换源成功) hexo部署插件12345678本地测试的时候需要用hexo servernpm i hexo-server将文章部署到github上的模块npm install hexo-deployer-git --save安装RSS插件npm install hexo-generator-feed --save添加Sitemap,加速网页收录速度npm install hexo-generator-sitemap --save .deploy：执行hexo deploy命令部署到GitHub上的内容目录public：执行hexo generate命令，输出的静态网页内容目录scaffolds：layout模板文件目录，其中的md文件可以添加编辑scripts：扩展脚本目录，这里可以自定义一些javascript脚本source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。_drafts：草稿文章_posts：发布文章themes：主题文件目录_config.yml：全局配置文件，大多数的设置都在这里package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮 Hexo原理就是hexo在执行hexo generate时会在本地先把博客生成的一套静态站点放到public文件夹中，在执行hexo deploy时将其复制到.deploy文件夹中。Github的版本库通常建议同时附上README.md说明文件，但是hexo默认情况下会把所有md文件解析成html文件，所以即使在线生成了README .md，它也会在你下一次部署时被删去。怎么解决呢？在执行hexo deploy前把在本地写好的README.md文件复制到.deploy文件夹中，再去执行hexo deploy。 hexo博客更新博文123hexo g # 初始化文件hexo s # 本地部署hexo d # 发布到github 先记录到这，一会出现问题都会在这里更新。]]></content>
       <categories>
         <category>Testing</category>
       </categories>
