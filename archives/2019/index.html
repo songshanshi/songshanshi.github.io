@@ -396,9 +396,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/07/28/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2019/07/28/安装hexo/" itemprop="url">
               
-                <span itemprop="name">Hello World</span>
+                <span itemprop="name">hexo博客迁移记录</span>
               
             </a>
         
@@ -431,9 +431,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/07/28/安装hexo/" itemprop="url">
+            <a class="post-title-link" href="/2019/07/28/hello-world/" itemprop="url">
               
-                <span itemprop="name">hexo博客迁移记录</span>
+                <span itemprop="name">Hello World</span>
               
             </a>
         
@@ -589,7 +589,7 @@
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="songshanshi3@gmail.com" target="_blank" title="E-Mail">
+                    <a href="https://songshanshi3@gmail.com" target="_blank" title="E-Mail">
                       
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
@@ -855,6 +855,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '9y7BjkdJPXFXwN3L5S9qpt1T-gzGzoHsz',
+        appKey: 'OudmHINMkizDcIFVLBIeA1eq',
+        placeholder: 'Just go go',
+        avatar:'/uploads/first.png',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
