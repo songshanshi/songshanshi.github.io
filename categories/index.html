@@ -110,17 +110,14 @@
 
 
 
-<meta name="description" content="I am a ctfer. I like security">
 <meta property="og:type" content="website">
 <meta property="og:title" content="categories">
 <meta property="og:url" content="https://songshanshi.github.io/categories/index.html">
 <meta property="og:site_name" content="嵩山石&#39;s blogs">
-<meta property="og:description" content="I am a ctfer. I like security">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-07-28T11:50:45.697Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="categories">
-<meta name="twitter:description" content="I am a ctfer. I like security">
 
 
 
@@ -372,7 +369,9 @@
 
   
     <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjM3NC8xMjkwOQ=="></div>
     </div>
+
   
 
 
@@ -560,6 +559,26 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 
@@ -704,37 +723,26 @@
 
 
   
-
-
-
-
-
-
-
-
-
-
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: '9y7BjkdJPXFXwN3L5S9qpt1T-gzGzoHsz',
-        appKey: 'OudmHINMkizDcIFVLBIeA1eq',
-        placeholder: 'Just go go',
-        avatar:'/uploads/first.png',
-        guest_info:guest,
-        pageSize:'10' || 10,
-    });
-  </script>
+
+
+
+
+
+
+
+
+
 
 
 

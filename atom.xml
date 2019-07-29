@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://songshanshi.github.io/"/>
-  <updated>2019-07-29T07:25:59.805Z</updated>
+  <updated>2019-07-29T09:19:28.668Z</updated>
   <id>https://songshanshi.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试音乐</title>
+    <title>音乐电台</title>
     <link href="https://songshanshi.github.io/2019/07/29/%E6%B5%8B%E8%AF%95%E9%9F%B3%E4%B9%90/"/>
     <id>https://songshanshi.github.io/2019/07/29/测试音乐/</id>
     <published>2019-07-29T07:10:00.000Z</published>
-    <updated>2019-07-29T07:25:59.805Z</updated>
+    <updated>2019-07-29T09:19:28.668Z</updated>
     
     <summary type="html">
     
@@ -96,7 +96,7 @@
       
         
         
-          &lt;h3 id=&quot;reverse-1&quot;&gt;&lt;a href=&quot;#reverse-1&quot; class=&quot;headerlink&quot; title=&quot;reverse 1&quot;&gt;&lt;/a&gt;reverse
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -118,7 +118,7 @@
       
         
         
-          &lt;h3 id=&quot;一-准备条件&quot;&gt;&lt;a href=&quot;#一-准备条件&quot; class=&quot;headerlink&quot; title=&quot;一.准备条件&quot;&gt;&lt;/a&gt;一.准备条件&lt;/h3&gt;&lt;p&gt;机器        -ip-用户-主机名-备注&lt;br&gt;A    -10.10.10.128     -  
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -140,8 +140,7 @@
       
         
         
-          &lt;p&gt;看见其他学校的大佬都给学校搭建训练平台，羡慕不已，故我也搭一个练练手 嘻嘻。。&lt;/p&gt;
-&lt;h3 id=&quot;ctfd的搭建&quot;&gt;&lt;a href=&quot;#ctfd的搭建&quot; class=&quot;headerlink&quot; title=&quot;ctfd的搭建&quot;&gt;&lt;/a&gt;ctfd的搭建&lt;/h3&gt;&lt;h4
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -163,7 +162,7 @@
       
         
         
-          &lt;h3 id=&quot;misc&quot;&gt;&lt;a href=&quot;#misc&quot; class=&quot;headerlink&quot; title=&quot;misc&quot;&gt;&lt;/a&gt;misc&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/14YsPdaY5J7iM05Yn11Q8rQ&quot;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -185,7 +184,7 @@
       
         
         
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -207,7 +206,7 @@
       
         
         
-          &lt;p&gt;这几天在看《揭秘家用路由器0day漏洞挖掘技术》下了ubuntu18.4，感觉Ubuntu还是不错的，发现没有Python2（mmp），安装是出现了Unable to correct problems, you have held broken
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
