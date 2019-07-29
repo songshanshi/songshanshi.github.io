@@ -1996,7 +1996,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #451c52;
+  background: #b6e818;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3293,6 +3293,11 @@ img:hover {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("/uploads/first.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .post-body p a {
   color: #0593d3;
