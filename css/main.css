@@ -1996,7 +1996,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #26a8b6;
+  background: #a2d469;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3084,7 +3084,6 @@ img:hover {
 }
 .links-of-author-item {
   margin: 5px 0 0;
-  width: 50%;
 }
 .links-of-author-item a {
   max-width: 216px;
@@ -3096,6 +3095,9 @@ img:hover {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 .links-of-author-item a {
   display: block;
@@ -3134,9 +3136,7 @@ img:hover {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   margin: 5px 0 0;
-  width: 50%;
   display: inline-block;
-  width: unset;
 }
 .links-of-blogroll-inline .links-of-blogroll-item a {
   max-width: 216px;
@@ -3148,6 +3148,9 @@ img:hover {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 .content-wrap {
   padding: initial;
@@ -3227,10 +3230,11 @@ img:hover {
 }
 .post-body h3 {
   font-size: 1.3em;
-  border-bottom: 1px dotted #eee;
+  border-bottom: 1px solid #eee;
 }
 .post-body h4 {
   font-size: 1.2em;
+  border-bottom: 1px dotted #eee;
 }
 .post-body h5 {
   font-size: 1.07em;
@@ -3295,10 +3299,11 @@ img:hover {
   }
 }
 body {
-  background: url("/images/background.png");
+  background: url("/images/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 .post-body p a {
   color: #0593d3;
@@ -3311,7 +3316,28 @@ body {
 .post {
   margin-top: 60px;
   margin-bottom: 60px;
-  padding: 25px;
+  background: #fff;
+  opacity: 0.9;
+  padding: 15px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.site-meta {
+  background: url("http://cdn.zzwwqq.xyz/static/images/hexo/hexo-0-site-meta.jpg");
+}
+.brand {
+  color: #4dfc23;
+}
+.site-subtitle {
+  color: #4dfc23;
+}
+.footer {
+  color: #f0d784;
+}
+.footer {
+  font-size: 14px;
+  color: #ededed;
+}
+.footer .with-love {
+  color: #f0d784;
 }
