@@ -97,7 +97,7 @@
 
 
 
-  <meta name="keywords" content="hello,">
+  <meta name="keywords" content="Hexo, NexT">
 
 
 
@@ -110,18 +110,17 @@
 
 
 
-<meta name="description" content="本文并不是从头开始搭建hexo博客的教程，而是因为最近个人重装了电脑系统，需求迁移原来搭建好的hexo博客，为了防止将来还需要迁移，特记录下操作流程，以便将来查看。 迁移博客的工作量要比从头开始搭建简单很多，很多插件的服务端配置都不需要重新设置，只需要在本地做相应的操作即可。">
-<meta name="keywords" content="hello">
+<meta name="description" content="一.准备条件机器        -ip-用户-主机名-备注A    -10.10.10.128     -    root        www    -    位于内网的目标服务器B    -123.123.123.123 -root  vultr    - 位于公网的服务器C - 192.168.1.1 - root - 123- 可以 访问公网的客户机 二.方案简单的说：在A机器上做到B机器">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo博客迁移记录">
-<meta property="og:url" content="https://songshanshi.github.io/2019/07/28/安装hexo/index.html">
+<meta property="og:title" content="使用ssh反向代理+nginx实现外网连接内网服务器">
+<meta property="og:url" content="https://songshanshi.github.io/2019/07/30/使用ssh反向代理+nginx实现外网连接内网服务器/index.html">
 <meta property="og:site_name" content="嵩山石&#39;s blogs">
-<meta property="og:description" content="本文并不是从头开始搭建hexo博客的教程，而是因为最近个人重装了电脑系统，需求迁移原来搭建好的hexo博客，为了防止将来还需要迁移，特记录下操作流程，以便将来查看。 迁移博客的工作量要比从头开始搭建简单很多，很多插件的服务端配置都不需要重新设置，只需要在本地做相应的操作即可。">
+<meta property="og:description" content="一.准备条件机器        -ip-用户-主机名-备注A    -10.10.10.128     -    root        www    -    位于内网的目标服务器B    -123.123.123.123 -root  vultr    - 位于公网的服务器C - 192.168.1.1 - root - 123- 可以 访问公网的客户机 二.方案简单的说：在A机器上做到B机器">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-30T10:26:01.571Z">
+<meta property="og:updated_time" content="2019-07-30T10:26:01.569Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo博客迁移记录">
-<meta name="twitter:description" content="本文并不是从头开始搭建hexo博客的教程，而是因为最近个人重装了电脑系统，需求迁移原来搭建好的hexo博客，为了防止将来还需要迁移，特记录下操作流程，以便将来查看。 迁移博客的工作量要比从头开始搭建简单很多，很多插件的服务端配置都不需要重新设置，只需要在本地做相应的操作即可。">
+<meta name="twitter:title" content="使用ssh反向代理+nginx实现外网连接内网服务器">
+<meta name="twitter:description" content="一.准备条件机器        -ip-用户-主机名-备注A    -10.10.10.128     -    root        www    -    位于内网的目标服务器B    -123.123.123.123 -root  vultr    - 位于公网的服务器C - 192.168.1.1 - root - 123- 可以 访问公网的客户机 二.方案简单的说：在A机器上做到B机器">
 
 
 
@@ -151,13 +150,13 @@
 
 
 
-  <link rel="canonical" href="https://songshanshi.github.io/2019/07/28/安装hexo/">
+  <link rel="canonical" href="https://songshanshi.github.io/2019/07/30/使用ssh反向代理+nginx实现外网连接内网服务器/">
 
 
 
 
 
-  <title>hexo博客迁移记录 | 嵩山石's blogs</title>
+  <title>使用ssh反向代理+nginx实现外网连接内网服务器 | 嵩山石's blogs</title>
   
 
 
@@ -343,7 +342,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://songshanshi.github.io/2019/07/28/安装hexo/">
+    <link itemprop="mainEntityOfPage" href="https://songshanshi.github.io/2019/07/30/使用ssh反向代理+nginx实现外网连接内网服务器/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="嵩山石">
@@ -360,7 +359,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">hexo博客迁移记录</h2>
+          <h2 class="post-title" itemprop="name headline">使用ssh反向代理+nginx实现外网连接内网服务器</h2>
         
 
         <div class="post-meta">
@@ -372,8 +371,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-28T00:00:00+08:00">
-                2019-07-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-30T18:26:01+08:00">
+                2019-07-30
               </time>
             
 
@@ -383,28 +382,6 @@
           </span>
 
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Testing/" itemprop="url" rel="index">
-                    <span itemprop="name">Testing</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -413,8 +390,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/07/28/安装hexo/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/28/安装hexo/" itemprop="commentCount"></span>
+                <a href="/2019/07/30/使用ssh反向代理+nginx实现外网连接内网服务器/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/30/使用ssh反向代理+nginx实现外网连接内网服务器/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -422,7 +399,7 @@
 
           
           
-             <span id="/2019/07/28/安装hexo/" class="leancloud_visitors" data-flag-title="hexo博客迁移记录">
+             <span id="/2019/07/30/使用ssh反向代理+nginx实现外网连接内网服务器/" class="leancloud_visitors" data-flag-title="使用ssh反向代理+nginx实现外网连接内网服务器">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -453,7 +430,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  701
+                  615
                 </span>
               
 
@@ -469,7 +446,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  2
                 </span>
               
             </div>
@@ -490,18 +467,19 @@
       
 
       
-        <p>本文并不是从头开始搭建hexo博客的教程，而是因为最近个人重装了电脑系统，需求迁移原来搭建好的hexo博客，为了防止将来还需要迁移，特记录下操作流程，以便将来查看。</p>
-<p>迁移博客的工作量要比从头开始搭建简单很多，很多插件的服务端配置都不需要重新设置，只需要在本地做相应的操作即可。</p>
-<a id="more"></a>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>第一步当然是安装相应的软件和配置好环境。需要安装的软件有Node.js和Git,去官网下载安装即可。</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git -v</span><br><span class="line">node -v</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<p>当Node.js和Git都安装好后就可以正式安装Hexo了，终端执行如下命令：<br><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure></p>
-<h3 id="git更换源"><a href="#git更换源" class="headerlink" title="git更换源"></a>git更换源</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org </span><br><span class="line">npm info underscore (输出正常反馈信息则说明换源成功)</span><br></pre></td></tr></table></figure>
-<h3 id="hexo部署插件"><a href="#hexo部署插件" class="headerlink" title="hexo部署插件"></a>hexo部署插件</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">本地测试的时候需要用hexo server</span><br><span class="line">npm i hexo-server</span><br><span class="line">将文章部署到github上的模块</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">安装RSS插件</span><br><span class="line">npm install hexo-generator-feed --save</span><br><span class="line">添加Sitemap,加速网页收录速度</span><br><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>.deploy：执行hexo deploy命令部署到GitHub上的内容目录<br>public：执行hexo generate命令，输出的静态网页内容目录<br>scaffolds：layout模板文件目录，其中的md文件可以添加编辑<br>scripts：扩展脚本目录，这里可以自定义一些javascript脚本<br>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。<br>_drafts：草稿文章<br>_posts：发布文章<br>themes：主题文件目录<br>_config.yml：全局配置文件，大多数的设置都在这里<br>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</p>
-<p>Hexo原理就是hexo在执行hexo generate时会在本地先把博客生成的一套静态站点放到public文件夹中，在执行hexo deploy时将其复制到.deploy文件夹中。Github的版本库通常建议同时附上README.md说明文件，但是hexo默认情况下会把所有md文件解析成html文件，所以即使在线生成了README .md，它也会在你下一次部署时被删去。怎么解决呢？<br>在执行hexo deploy前把在本地写好的README.md文件复制到.deploy文件夹中，再去执行hexo deploy。</p>
-<h3 id="hexo博客更新博文"><a href="#hexo博客更新博文" class="headerlink" title="hexo博客更新博文"></a>hexo博客更新博文</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g       <span class="comment"># 初始化文件</span></span><br><span class="line">hexo s       <span class="comment"># 本地部署</span></span><br><span class="line">hexo d       <span class="comment"># 发布到github</span></span><br></pre></td></tr></table></figure>
-<p>先记录到这，一会出现问题都会在这里更新。</p>
+        <h3 id="一-准备条件"><a href="#一-准备条件" class="headerlink" title="一.准备条件"></a>一.准备条件</h3><p>机器        -ip-用户-主机名-备注<br>A    -10.10.10.128     -    root        www    -    位于内网的目标服务器<br>B    -123.123.123.123 -root  vultr    - 位于公网的服务器<br>C - 192.168.1.1 - root - 123- 可以 访问公网的客户机</p>
+<h3 id="二-方案"><a href="#二-方案" class="headerlink" title="二.方案"></a>二.方案</h3><p>简单的说：在A机器上做到B机器的反向代理，将A机器上的服务端口映射到B机器的本地端口，然后使用nginx实现将本地端口转发到80(http)服务端口。</p>
+<h4 id="1-前提"><a href="#1-前提" class="headerlink" title="1.前提"></a>1.前提</h4><p>在AB机器上安装好ssh客户端和服务端 ，机器c上装上浏览器<br>在B机器上装好nginx，测试使用完好</p>
+<h4 id="2-需要使用的ssh参数"><a href="#2-需要使用的ssh参数" class="headerlink" title="2.需要使用的ssh参数"></a>2.需要使用的ssh参数</h4><p>反向代理 <figure class="highlight plain"><figcaption><span>-fCNR ```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正向代理```ssh -fCNL</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">-f 后台执行ssh指令</span><br><span class="line">-C 允许压缩数据</span><br><span class="line">-N 不执行远程指令</span><br><span class="line">-R 将远程主机(服务器)的某个端口转发到本地主机指定的端口</span><br><span class="line">-L 将本地机(客户机)的某个端口转发到远端指定机器的指定端口</span><br><span class="line">-p 指定远程主机的端口</span><br></pre></td></tr></table></figure>
+<h4 id="3-建立A到B的反向代理"><a href="#3-建立A到B的反向代理" class="headerlink" title="3.建立A到B的反向代理"></a>3.建立A到B的反向代理</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -fCNR [B机器IP或省略]:[B机器端口]:[A机器的IP]:[A机器的sshd端口] [登录B机器的用户名@B机器的IP] -p [B机器的sshd端口]</span><br></pre></td></tr></table></figure>
+<p>A机器的服务端口是4000，反向代理到B机器的4001端口，在A机器上操作：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -fCNR 4001:localhost:4000 -o ServerAliveInterval=60 root@123.123.123.123 -p 22</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>注：-o ServerAliveInterval=60表示服务器B每隔60秒发送一次数据给服务器A，以便ssh连接不会因为超时而断开连接.<br>然后这里之前要先实现A机器到B机器的ssh免密码登录，检查是否成功建立连接可以在A机器上<figure class="highlight plain"><figcaption><span>localhost:4001```或者是可以```netstat -antpul |grep '127.0.0.1:4001'```来确认机器A到B的反向连接是否建立成功。</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 4.使用nginx实现本地端口的转发</span><br><span class="line">在A机器上 ```vim /etc/nginx/nginx.conf</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>将下面配置信息添加到上面<br><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">       proxy_pass http://localhost:<span class="number">4000</span>;</span><br><span class="line">       proxy_set_header Host <span class="variable">$host</span>;</span><br><span class="line">       proxy_set_header X-Real-IP <span class="variable">$remote_addr</span>;</span><br><span class="line">       proxy_set_header X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;</span><br><span class="line">       proxy_redirect off;</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure></p>
+<p>然后启动nginx，就可以成功将内网服务搭载公网了，使用C机器访问公网ip，这里还有就是一定要注意配置防火墙规则等。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl start nginx</span><br><span class="line">systemctl enable nginx</span><br></pre></td></tr></table></figure></p>
+<p>本文主要引用<a href="https://blog.csdn.net/u012843189/article/details/79522738" target="_blank" rel="noopener">这个博客</a></p>
 
       
     </div>
@@ -531,12 +509,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/hello/" rel="tag"><i class="fa fa-tag"></i> hello</a>
-          
-        </div>
-      
 
       
       
@@ -546,8 +518,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/10/08/Panther CTF/" rel="next" title="Panther ctf">
-                <i class="fa fa-chevron-left"></i> Panther ctf
+              <a href="/2019/07/30/ddctf/" rel="next" title="ddctf解题记录">
+                <i class="fa fa-chevron-left"></i> ddctf解题记录
               </a>
             
           </div>
@@ -556,8 +528,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/28/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/30/解决包损坏错误/" rel="prev" title="ubuntu18.4安装一些软件时出现 Unable to correct problems, you have held broken packages">
+                ubuntu18.4安装一些软件时出现 Unable to correct problems, you have held broken packages <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -736,7 +708,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git更换源"><span class="nav-number">2.</span> <span class="nav-text">git更换源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo部署插件"><span class="nav-number">3.</span> <span class="nav-text">hexo部署插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo博客更新博文"><span class="nav-number">4.</span> <span class="nav-text">hexo博客更新博文</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-准备条件"><span class="nav-number">1.</span> <span class="nav-text">一.准备条件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二-方案"><span class="nav-number">2.</span> <span class="nav-text">二.方案</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-前提"><span class="nav-number">2.1.</span> <span class="nav-text">1.前提</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-需要使用的ssh参数"><span class="nav-number">2.2.</span> <span class="nav-text">2.需要使用的ssh参数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-建立A到B的反向代理"><span class="nav-number">2.3.</span> <span class="nav-text">3.建立A到B的反向代理</span></a></li></ol></li></ol></div>
             
 
           </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://songshanshi.github.io/"/>
-  <updated>2019-07-29T11:39:36.997Z</updated>
+  <updated>2019-07-30T10:26:01.574Z</updated>
   <id>https://songshanshi.github.io/</id>
   
   <author>
@@ -17,11 +17,143 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ubuntu18.4安装一些软件时出现 Unable to correct problems, you have held broken packages</title>
+    <link href="https://songshanshi.github.io/2019/07/30/%E8%A7%A3%E5%86%B3%E5%8C%85%E6%8D%9F%E5%9D%8F%E9%94%99%E8%AF%AF/"/>
+    <id>https://songshanshi.github.io/2019/07/30/解决包损坏错误/</id>
+    <published>2019-07-30T10:26:01.573Z</published>
+    <updated>2019-07-30T10:26:01.574Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用ssh反向代理+nginx实现外网连接内网服务器</title>
+    <link href="https://songshanshi.github.io/2019/07/30/%E4%BD%BF%E7%94%A8ssh%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86+nginx%E5%AE%9E%E7%8E%B0%E5%A4%96%E7%BD%91%E8%BF%9E%E6%8E%A5%E5%86%85%E7%BD%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://songshanshi.github.io/2019/07/30/使用ssh反向代理+nginx实现外网连接内网服务器/</id>
+    <published>2019-07-30T10:26:01.569Z</published>
+    <updated>2019-07-30T10:26:01.569Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ddctf解题记录</title>
+    <link href="https://songshanshi.github.io/2019/07/30/ddctf/"/>
+    <id>https://songshanshi.github.io/2019/07/30/ddctf/</id>
+    <published>2019-07-30T10:26:01.548Z</published>
+    <updated>2019-07-30T10:26:01.548Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ctf交流群的加群题</title>
+    <link href="https://songshanshi.github.io/2019/07/30/ctf%E4%BA%A4%E6%B5%81%E7%BE%A4%E5%85%A5%E7%BE%A4/"/>
+    <id>https://songshanshi.github.io/2019/07/30/ctf交流群入群/</id>
+    <published>2019-07-30T10:26:01.545Z</published>
+    <updated>2019-07-30T10:26:01.546Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>记一次将ctfd搭建到校园网的centos主机上</title>
+    <link href="https://songshanshi.github.io/2019/07/30/ctfd%E7%9A%84%E6%90%AD%E5%BB%BA/"/>
+    <id>https://songshanshi.github.io/2019/07/30/ctfd的搭建/</id>
+    <published>2019-07-30T10:26:01.543Z</published>
+    <updated>2019-07-30T10:26:01.544Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ceshi</title>
+    <link href="https://songshanshi.github.io/2019/07/30/ceshi/"/>
+    <id>https://songshanshi.github.io/2019/07/30/ceshi/</id>
+    <published>2019-07-30T09:34:32.000Z</published>
+    <updated>2019-07-30T10:26:01.542Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>音乐电台</title>
     <link href="https://songshanshi.github.io/2019/07/29/%E6%B5%8B%E8%AF%95%E9%9F%B3%E4%B9%90/"/>
     <id>https://songshanshi.github.io/2019/07/29/测试音乐/</id>
     <published>2019-07-29T07:10:00.000Z</published>
-    <updated>2019-07-29T11:39:36.997Z</updated>
+    <updated>2019-07-30T10:26:01.572Z</updated>
     
     <summary type="html">
     
@@ -47,7 +179,7 @@
     <link href="https://songshanshi.github.io/2019/07/28/hello-world/"/>
     <id>https://songshanshi.github.io/2019/07/28/hello-world/</id>
     <published>2019-07-27T16:00:00.000Z</published>
-    <updated>2019-07-28T12:34:43.445Z</updated>
+    <updated>2019-07-30T10:26:01.564Z</updated>
     
     <summary type="html">
     
@@ -67,7 +199,7 @@
     <link href="https://songshanshi.github.io/2019/07/28/%E5%AE%89%E8%A3%85hexo/"/>
     <id>https://songshanshi.github.io/2019/07/28/安装hexo/</id>
     <published>2019-07-27T16:00:00.000Z</published>
-    <updated>2019-07-28T12:35:19.874Z</updated>
+    <updated>2019-07-30T10:26:01.571Z</updated>
     
     <summary type="html">
     
@@ -84,121 +216,11 @@
   </entry>
   
   <entry>
-    <title>ddctf解题记录</title>
-    <link href="https://songshanshi.github.io/2019/04/16/ddctf/"/>
-    <id>https://songshanshi.github.io/2019/04/16/ddctf/</id>
-    <published>2019-04-16T12:53:50.148Z</published>
-    <updated>2019-07-28T08:44:52.543Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>使用ssh反向代理+nginx实现外网连接内网服务器</title>
-    <link href="https://songshanshi.github.io/2018/11/30/%E4%BD%BF%E7%94%A8ssh%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86+nginx%E5%AE%9E%E7%8E%B0%E5%A4%96%E7%BD%91%E8%BF%9E%E6%8E%A5%E5%86%85%E7%BD%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>https://songshanshi.github.io/2018/11/30/使用ssh反向代理+nginx实现外网连接内网服务器/</id>
-    <published>2018-11-30T03:25:16.454Z</published>
-    <updated>2018-11-30T03:24:54.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>记一次将ctfd搭建到校园网的centos主机上</title>
-    <link href="https://songshanshi.github.io/2018/11/30/ctfd%E7%9A%84%E6%90%AD%E5%BB%BA/"/>
-    <id>https://songshanshi.github.io/2018/11/30/ctfd的搭建/</id>
-    <published>2018-11-30T02:49:04.383Z</published>
-    <updated>2018-11-30T02:48:10.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ctf交流群的加群题</title>
-    <link href="https://songshanshi.github.io/2018/11/01/ctf%E4%BA%A4%E6%B5%81%E7%BE%A4%E5%85%A5%E7%BE%A4/"/>
-    <id>https://songshanshi.github.io/2018/11/01/ctf交流群入群/</id>
-    <published>2018-11-01T14:34:48.065Z</published>
-    <updated>2018-11-01T14:36:36.825Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Panther ctf</title>
     <link href="https://songshanshi.github.io/2018/10/08/Panther%20CTF/"/>
     <id>https://songshanshi.github.io/2018/10/08/Panther CTF/</id>
     <published>2018-10-08T14:35:16.000Z</published>
-    <updated>2018-10-08T15:45:02.367Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ubuntu18.4安装一些软件时出现 Unable to correct problems, you have held broken packages</title>
-    <link href="https://songshanshi.github.io/2018/06/09/%E8%A7%A3%E5%86%B3%E5%8C%85%E6%8D%9F%E5%9D%8F%E9%94%99%E8%AF%AF/"/>
-    <id>https://songshanshi.github.io/2018/06/09/解决包损坏错误/</id>
-    <published>2018-06-09T11:34:35.583Z</published>
-    <updated>2018-06-09T11:33:16.000Z</updated>
+    <updated>2019-07-30T10:26:01.525Z</updated>
     
     <summary type="html">
     
