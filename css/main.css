@@ -1996,7 +1996,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff5dff;
+  background: #ff1a33;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3306,8 +3306,7 @@ body {
   background-size: cover;
 }
 .main-inner {
-  background: #fff;
-  opacity: 0.85;
+  background: rgba(255,255,255,0.878);
 }
 .post-body p a {
   color: #0593d3;
@@ -3325,8 +3324,7 @@ body {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .header-inner {
-  background: rgba(255,255,255,0.91);
-  opacity: 0.85;
+  background: rgba(255,255,255,0.878);
 }
 .site-meta {
   background: url("http://cdn.zzwwqq.xyz/static/images/hexo/hexo-0-site-meta.jpg");
